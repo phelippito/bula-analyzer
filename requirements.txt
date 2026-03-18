@@ -1,0 +1,9 @@
+streamlit
+pdfplumber
+pillow
+requests
+beautifulsoup4
+anthropic
+python-dotenv
+reportlab
+pytesseract
