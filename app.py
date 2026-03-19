@@ -45,7 +45,13 @@ def gerar_pdf(remedio1, remedio2, resultado):   # função que gera o PDF com o 
     return buffer                                # retorna o buffer com o PDF pronto
 
 st.title("💊 Bula Analyzer")               # título principal da página
-st.write("Análise inteligente de bulas de remédios") # subtítulo da página
+st.write("Análise inteligente de bulas de remédios")
+
+st.warning("""
+⚠️ Atenção: a análise feita apenas pelo nome do remédio é baseada no conhecimento geral 
+da IA e pode conter imprecisões. Para maior precisão e confiabilidade, 
+faça o upload da bula oficial em PDF ou foto.
+""") # subtítulo da página
 
 st.divider()                               # linha separadora visual
 
